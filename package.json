@@ -6,7 +6,8 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "build": "lerna run build --parallel"
+    "build": "lerna run build --parallel",
+    "test": "lerna run test --parallel"
   },
   "devDependencies": {
     "lerna": "^3.20.2",
